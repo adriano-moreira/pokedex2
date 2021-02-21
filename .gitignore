@@ -39,3 +39,10 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+androind
+ios
+linux
+macos
+windows
+web

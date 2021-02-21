@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pokedex/core/screen/animation_page.dart';
+import 'package:pokedex/core/screen/pokedex_page.dart';
 import 'core/colors/colors.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AnimationPage(),
+      home: PokedexPage(),
     );
   }
 }
